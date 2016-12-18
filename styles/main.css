@@ -13,13 +13,18 @@ body{
   background-color: #ccc;
   text-align:center;}
 
-.about-container{
-  width: 100%;
-  vertical-align: middle;
+#aboutRow{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
+#profileImg{display: block;
+margin: 0 auto;}
 
-
-
+#linksList{
+display: inline-block;
+  margin-left: 0 auto;
+}
 .fa-linkedin-square{color: #007bb6;}
 .fa-free-code-camp{color: #09b609;}
 .fa-github{color:#444;}
