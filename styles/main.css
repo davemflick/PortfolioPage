@@ -20,6 +20,7 @@ body{
   justify-content: center;
 }
 #aboutMe{font-size: 1.5em;}
+
 #profileImg{display: block;
 margin: 0 auto;}
 
@@ -38,34 +39,64 @@ display: inline-block;
   margin: 10px auto;
   border-radius: 25%;
 }
-
-
-/*.jumbotron {background-color: #ACADB0!important;
-background-repeat: no-repeat;
-  background-size: cover;
-   }
-@media screen and (max-width:auto){
-  .jumbotron{ padding-top: 16px}
+@media(max-width: 600px){
+body{font-size: .6em;}
+.projects-container img {
+  width: 135px;
+  height: 135px;
+  margin: 10px auto;
+  border-radius: 25%;}
+  #links .fa {font-size: 1em;}
 }
 
-.port-img{ width: 30%;
-  margin: auto;
-  border-style: outset;
-  
-}
-.img-size{
-  max-height: 19%}
-
-
-.about-me {font-size: 40px;
-  padding-bottom: 20px}
-  
-  h3 { font-family: copperplate!important }
-
-.form-group { width: 50%!important;
-  margin: auto!important;
+@media (min-width: 601px) and (max-width: 767px){
+  body{font-size: .8em;}
+.projects-container img {
+  width: 180px;
+  height: 180px;
+  margin: 10px auto;
+  border-radius: 25%;}
+ #links, .fa {font-size: 1.3em;}
 }
 
-.panel-footer { background-color:#89c1c5!important;
-font-family: papryus}
-*/
+@media(min-width: 768px) and (max-width: 991px){
+  body{font-size: 1em}
+.projects-container img {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  border-radius: 25%;}
+ #links .fa {font-size: 1.5em;}
+}
+
+
+@media(min-width: 992px) and (max-width: 1199px){
+ #links .fa {font-size: 2em;}
+.projects-container img {
+  width: 225px;
+  height: 225px;
+  margin: 10px auto;
+  border-radius: 25%;
+}
+
+}
+
+
+@media(min-width: 1200px){
+ #links .fa {font-size: 3em;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
