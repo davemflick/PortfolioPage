@@ -11,13 +11,15 @@ margin: 10px auto;}
 body{
   margin-top: 70px;
   background-color: #ccc;
-  text-align:center;}
+  text-align:center;
+ font-family: 'Mirza', cursive;}
 
 #aboutRow{
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
+#aboutMe{font-size: 1.5em;}
 #profileImg{display: block;
 margin: 0 auto;}
 
@@ -30,6 +32,12 @@ display: inline-block;
 .fa-github{color:#444;}
 .fa-codepen{color: #555;}
 
+.projects-container img {
+  width: 250px;
+  height: 250px;
+  margin: 10px auto;
+  border-radius: 25%;
+}
 
 
 /*.jumbotron {background-color: #ACADB0!important;
